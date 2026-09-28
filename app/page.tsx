@@ -1,6 +1,5 @@
 import { SiteHero } from "@/components/site-hero"
 import { WhatIShare } from "@/components/what-i-share"
-import { PoemsArchive } from "@/components/poems-archive"
 import { Languages } from "@/components/languages"
 import { Follow } from "@/components/follow"
 
@@ -9,7 +8,6 @@ export default function Page() {
     <main className="min-h-screen bg-background text-foreground">
       <SiteHero />
       <WhatIShare />
-      <PoemsArchive />
       <Languages />
       <Follow />
       <footer className="border-t border-border">
