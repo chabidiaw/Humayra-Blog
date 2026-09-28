@@ -1,5 +1,5 @@
 const languages = [
-  { name: "English", note: "Ln" },
+  { name: "English", note: "En" },
   { name: "Français", note: "Fr" },
   { name: "Wolof", note: "Wo" },
 ]

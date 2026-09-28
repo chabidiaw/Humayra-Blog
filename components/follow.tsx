@@ -10,14 +10,32 @@ export function Follow() {
           The easiest way to stay close to new poetry, essays, and episodes is
           on the podcast. Subscribe and new work will find you.
         </p>
-        <a
-          href="https://open.spotify.com/show/7onSTjI2KVPGN4IG2LFPHp?si=91378350d31a41b3"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-        >
-          Listen & subscribe on Spotify
-        </a>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <a
+            href="https://open.spotify.com/show/7onSTjI2KVPGN4IG2LFPHp?si=91378350d31a41b3"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+          >
+            Listen on Spotify
+          </a>
+          <a
+            href="https://podcasts.apple.com/us/podcast/waxma-by-abi/id1796649562"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-7 py-3.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+          >
+            Apple Podcasts
+          </a>
+          <a
+            href="https://instagram.com/wax_maa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-7 py-3.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+          >
+            Instagram
+          </a>
+        </div>
       </div>
     </section>
   )
